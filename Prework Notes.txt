@@ -1,0 +1,103 @@
+Internet - Interconnected computer network; a multiple computer networks makes the internet
+
+World Wide Web (or web) - is a type of network, that send and receives data through http(hypertext protocol)
+
+domain/url - a proper name to replace ip address
+
+IP address - internet protocol address is how your computer identifies another computer in the web
+
+Server - special computers the host websites
+
+Browser - 
+
+Text editor - 
+
+Sublime - 
+
+
+Sublime Controls - 
+ctrl + shift + up or down: switches lines
+crtl + L : select cursored line
+crtl + shift + A: selected everything inside tag plus the tag
+crtl + shift + J or crtl + { : selected everything in tag
+ctrl + d: select and edit mult sections at same time
+ctrl + \ : to comment out code
+
+2. Intro to HTML
+
+Hypertext - software that lets you connect and share files over the internet
+Markup - a structure for writing text
+language - system of communication for web
+
+HTML boilerplate -  common set of element that helps us organize and being code
+
+3. Intro to CSS
+
+- Don't use id in CSS
+
+4. Layout Basics
+
+Inline Elements
+a, img, em, strong, span
+
+Block Elements
+h1-h6, div, ul, li, divs
+
+5. Navigation and Webpage Layout
+
+clearfix - says to browser we've floated some content and to pay atttention to the height of the children
+- this work b/c of the :after pseudo class which adds invisible div to maintain the height.
+
+I gues you turn <a> into blocks to be able to apply margin, padding and borders to it.
+
+column layout- divs right next to each other
+
+6. Develop Tools II
+
+GUI - Graphical User Interface
+CLI - Command Line Interface
+
+pwd - print working directory
+
+commands 3 parts
+1. command
+2. flags
+3. argument
+
+ls -a : list all files in directory
+
+~: working directory
+
+to rename a file or directory use: "mv"
+
+7. Developer Tools III (GitHub)
+
+to move unstaged things "git add ."
+
+
+10. Functions & The DOM
+
+when there's more than the required # of argument javascript ignores the extra arguments
+___________________
+
+1/16/2017
+
+- my mom hurt me when she keeps mentioning me as a loser. I'm not one so I won't listen to it. My result will show that.
+
+- I will call the school to verify. If 4 credits is in fact full time.
+
+- I still don't know what I'll do w/o a mac to use.
+
+- I feel this void, a lack of love when she talks about me like that I don't know my identity.
+
+- This is me enduring the mistake I've been doing. I'd say she's taking it pretty well for the fact that I was kicked out of school and had to restart my life she has a heck of a belief in me.
+
+- It's not about me. She's hurt and I'll show her that I'm fighting hard to make this happen. 
+
+- I want to read 3% man
+
+- I want to read the bible
+
+- I want to check how much is left to my name
+
+- 

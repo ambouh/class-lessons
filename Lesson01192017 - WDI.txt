@@ -1,0 +1,31 @@
+1/19/2017
+
+Code Challenge Javascript
+- alpha array
+- method: string, num
+- car
+- match c = alpha[c]
+
+https://jsbin.com/madegegodi/edit?html,js,console
+__________________________
+LESSON: intro to Git: https://github.com/ga-wdi-lessons/git-intro
+
+
+Working Directory: Parent of ALL
+ - parent: individual folder hosting a child 
+	- child: file inside a folder
+
+Git - version control software
+commit - to save point
+- to make a commit is to snapshot
+- give it a message
+- commit Early, Commit ofren
+
+Branching
+- is useful when you do not want to break anything from original
+
+ABOUT GIT-ING
+"git init" - initializes our folder
+"git add" - to add files to our staging area
+"git commit -m" - initial commit
+

@@ -1,0 +1,50 @@
+1/18/2017
+
+erik - Asian intructor
+
+Why is Command Line Great?
+- Speed
+- Precision - we know exactly what's going to happen when you write a command
+- Repeatability - 
+- Tools - Packg managers, npm, git version control
+- Debugging - 
+_________________
+Demo: Hello.txt using GUI vs CLI
+
+touch hello.txt
+mult file: hello{01..12}.txt
+
+COMMAND LINE has:
+- prompt: anmbouh $ [tell me what to do]
+- command: cd
+- option: -f
+- argument: foo.txt
+doSomething --how toFiles
+
+short-cut: one dash, one letter
+long: double dash, one word
+____________________
+absolute path vs. Relative path
+. - this is where I am
+".." - go up a dir
+____________________
+Getting Help
+--help or -h
+________________
+ctrl-c: next line [start new]
+ctrl-e: move cursor to end
+ctrl-a: move cursor to start
+tab: autocomplete
+ctrl-k: clear out terminal
+_______________
+HW: https://github.com/ga-wdi-exercises/to_oz
+issues tab > name
+_______________
+
+I used to be an intern and a student at school.
+I work retail as a sales associate at Adidas, which I didn't totally love b/c it wasn't intriguing, I wasn't using my thinking skills.
+As far as health, I'm in and out of the gym. I'm proactive about it when I care and then once I'm into it if things get hectic in my life and I tend to slowly stopped going.
+My passion is in coding, art and building cool things that work.
+-----------
+black mirror
+minimalist

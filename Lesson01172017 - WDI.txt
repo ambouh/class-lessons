@@ -1,0 +1,98 @@
+1/17/2017
+
+
+Andy - 3rd Instructor
+
+WHAT'S IMMERSIVE COURSE?
+- work day in and out
+- use your classmate as inspiration
+
+instead of looking at thing like it's tough, look at how you were the previous week.
+
+-Get some sleep. 11pm. 
+
+_____________________
+What's asking for help?
+- always ask
+- Be clear in your question.
+1. Try it yourself.
+2. Then, Google it.
+3. Then, ask your neighbor.
+4. Finally, ask an instructor
+
+first 2 projects, then 4th, will be through GitHub issues.
+_______________________
+https://github.com/ga-wdi-lessons/wdi-intro/blob/master/readme.md
+
+What language we'll cover
+- Project 1: Ruby, Sinatra - light-weight version (good intro)
+______________________
+Weekly Schedule
+9:00-10:00: Code Challenge / Review / Mini-Lesson
+10:00-12:30: Lesson 1 / Lab
+12:30-2:30: Lunch / Work Time / One-on-one's / Office Hours
+2:30-5:00: Lesson 2 / Lab / Outcomes (Wednesday)
+6:00-8:00: Evening Office Hours (Monday, Tuesday, Wednesday)
+
+- Lab: Can take up all 9-10 usually
+- Do Solid HW, you can show them to employees.
+_______________________
+Graduation
+- 80% 
+- missing, incomplete, completed (maybe even be half-way done)
+
+Class Calendar: 
+https://ga-dc.github.io/cr6/#2017-01-06
+______________________
+HW Submission
+- comes with:
+Comfort score: /5
+Conpleteness score: /5
+______________________
+ATTENDANCE
+Sign in Thru Garnett: http://garnet.wdidc.org.  
+- 2 absenses
+- 5 tardies
+Can't Grad.
+_______________________
+SQUAD MEETING 11/26: https://ga-dc.github.io/cr5/#2017-01-17
+
+Read Ahead!
+Lesson: https://github.com/ga-wdi-lessons
+Exercises: https://github.com/ga-wdi-exercises
+
+To Grad:
+- 5days tardy
+- 2days absent
+- Job seeker toolkit 
+
+So..To:
+- Attend spotlight
+
+
+What do I want to learn?
+- use angularjs
+__________________________
+
+- Arch
+__________________________
+
+CSS Review: https://github.com/ga-wdi-lessons/css-review
+
+codePen to see cool CSS
+SVG - using equation to make graphic css
+
+Selector - whatever proceeds the braces in css
+
+" " vs >
+- space: works on css of any child the correcponds to pointed element
+- >: works on css that is a direct child of pointing element
+
+----------------
+box-sizing: border-box
+___________________________
+eCardly Exercise
+issues > click 'new issue'> title - homee submission | desc - comfort level, completeness
+
+
+
