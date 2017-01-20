@@ -36,6 +36,10 @@ ABOUT GIT-ING
 
 "git status" - tracks status of what I've added and what I haven't
 
+"git push origin master" - to put changes from local to online
+
+"git pull origin master" - to bring changes in from online to local
+
 "remove .git" - to delete a repository locally *do this with Caution!*
 
 version - a way to track all changes and view these changes.
