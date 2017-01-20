@@ -1,5 +1,8 @@
 1/19/2017
 
+LESSON - 1st INSTRUCTOR - Avalanche(black female) - GIt/Github
+	- 2nd INSTRUCTOR - Andy (Big White guy) - CSS FLexbox
+
 Code Challenge Javascript
 - alpha array
 - method: string, num
@@ -26,6 +29,40 @@ Branching
 
 ABOUT GIT-ING
 "git init" - initializes our folder
+
 "git add" - to add files to our staging area
+
 "git commit -m" - initial commit
+
+"git status" - tracks status of what I've added and what I haven't
+
+"remove .git" - to delete a repository locally *do this with Caution!*
+
+version - a way to track all changes and view these changes.
+
+repository - is a place where you save all commits
+
+CHANGE A REMOTE URL 
+
+git remote set-url origin <link>
+______________________________________
+CSS-FLEXBOX
+
+body {
+display: flex;
+justify-content: center; [centers horizontally]
+		flex-start [up or left]
+		flex-end [down or right]
+align-items: center; [center vertically]
+}
+
+TO ADD SPACE IN-BETWEEN HORIZONTALLY
+justify-content: space-around
+
+TO FLIP CROSS-AXIS
+flex-drection: row or column;
+_____________________________________
+@media screen and (max-width: 600px) {
+
+}
 
