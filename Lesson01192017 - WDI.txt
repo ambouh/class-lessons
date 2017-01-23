@@ -1,7 +1,7 @@
 1/19/2017
 
 LESSON - 1st INSTRUCTOR - Avalanche(black female) - GIt/Github
-	- 2nd INSTRUCTOR - Andy (Big White guy) - CSS FLexbox
+	- 2nd INSTRUCTOR - Andy (Big White guy) - CSS Flexbox
 
 Code Challenge Javascript
 - alpha array
@@ -51,6 +51,8 @@ CHANGE A REMOTE URL
 git remote set-url origin <link>
 ______________________________________
 CSS-FLEXBOX
+
+https://github.com/ga-wdi-lessons/css-flexbox
 
 body {
 display: flex;

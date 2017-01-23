@@ -1,0 +1,52 @@
+1/23/2017
+
+Instructors
+Angel - Black girl instructor
+Adrian - bearded looking kid
+
+10 minute exercise on write a pseudocode
+____________________________________________
+PSEUDOCODE: https://github.com/ga-wdi-lessons/pseudocode 
+
+CONCENTRATION
+
+-  timer
+- deck of cards 
+
+should match (number and suit):
+
+
+- 
+
+playGame ():
+- arrange cards in 
+
+Review:
+- mention variable and specify individual functions: 
+break down each part of code indvidually
+- think of the logic of how things are handled: if something happens how to handle it
+- look for any thing that may make the project smooth: measurements, timing, and etc.
+______________________________________________
+GIT 2: https://github.com/ga-wdi-lessons/git-branching
+
+- make sure to always comment thing properly so to not impact your employment
+
+Fork - allows you to make your own copy onto your gitHub
+
+Clone - allows you to make your own copy locally
+
+-------------------------
+HOW WOULD EDIT A FILE AND EDIT FROM DIRECTORS
+ - create a branch save your edits
+ - go into your master, work on & save the commitee edit to it
+ - when done with old text, merge it to branch
+
+-------------------------
+WHY BRANCH?
+1. To allow experimentation
+2. To allow work to proceed on dif. ends
+3. To fix bugs
+4. No overhead
+------------------------
+When Do You Merge?
+1. when bugs are fixed
