@@ -50,3 +50,29 @@ WHY BRANCH?
 ------------------------
 When Do You Merge?
 1. when bugs are fixed
+
+HOW TO MERGE?
+*To merge a branch onto master you MUST be on master!!*
+git merge blue
+-----------------------
+Branches
+git branch: gives you all local brnach
+git branch -r: gives you remote branch available
+git brnach -a: gives you all (local, remote) branches
+git brnach -d <branch>: deletes branches
+
+Is the master branch different from any other branch?
+- No, a repo always start with master though which is the default
+
+*you must create a remote branch on the remote repo [github]*
+
+- Remote and Local branches are different and local branches can be pushed to any remote branches regardless of the similarity in names. However, it's best to keep
+branches names together unless you're merging a branch.
+
+Pull Request - it's like git my info to yours. But ask for the request on your page.
+ 
+-----------------------------------
+GIT CONFLICTS
+
+
+

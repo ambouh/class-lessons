@@ -85,7 +85,7 @@ SVG - using equation to make graphic css
 Selector - whatever proceeds the braces in css
 
 " " vs >
-- space: works on css of any child the correcponds to pointed element
+- space: works on css of any child that correcponds to pointed element
 - >: works on css that is a direct child of pointing element
 
 ----------------
