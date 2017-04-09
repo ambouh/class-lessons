@@ -1,0 +1,32 @@
+2/6/2017 - Object Oriented Javascript & ES6
+
+LEARNING OBJECTIVES [OOJS]
+- Explain the importance of OOJS
+- Describe the role of ES2015 Classes and how they work
+- Use the new keyword to create objects with - shared properties
+- Create a class that inherits from another using the extends and super keywords
+--------------------------
+object - encapsulates related data and behavior in an organized structure
+
+
+OOP helps us to achieve the following
+- Abstraction: determining essential features
+- Encapsulation: Containing and protecting methods and properties
+- Modularity: Breaking down a program into smaller sub-programs
+
+---------------------------
+"new" & "this"
+
+1. new- creates an empty object
+2. this- generates a context, "this" new object
+3. return the object
+-----------------------------
+Commas?
+- no commas needed to seperate class methods [only {braces} are needed]
+-----------------------------
+What are the benefits to using an OOP approach to programming?
+- 
+What is a class? What is new? How are they related?
+What does it mean to use "inheritance" when working with classes?
+How do we indicate that one class inherits from another?
+What does super mean?

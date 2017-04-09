@@ -1,0 +1,42 @@
+3/2/2017 - Shaping Up With AngularJs
+
+Module 
+ - used to write pieces of our app.
+ - makes code more readable, testable, and maintainable
+ - 
+Controller - used to define application behavior by defining functions and values
+Data Binding - expression are re-evaluated when a property changes
+Directive - HTML annotations that triggers JS behoviors
+Angular Expression (i.e., {{ }}) 
+ - used to write dynamic values in Angular js
+View Model
+-----------------------------
+AJAX and API's
+- explain difference b/t async and sync execution
+- explain why sync program aren't conducive to front-end
+- Use jQuery $.ajax() method to make GET request
+- Use jQuery 'promise-like' methods to handle AJAX resp.
+- Render new HTML content using data loaded from AJAX request
+- Perform POST, PUT and DELETE requests to an API to modify data
+
+API - (Application Program Interface)
+- refers to web URLs that can be accessed for raw data
+- a service that provides raw data for public use.
+
+JSON - (JS Object Notation)
+- it's made of strings
+- although, it looks like a JS object it needs to be parsed to be used like a JS object
+- just an object
+- just a key-value pair
+
+XML
+- the grandaddy of serialized data format (Based on HTML)
+- JSON is more favorable than XML due to its readability
+
+Promise - may or may not execute
+Callback - will always execute
+
+
+
+
+

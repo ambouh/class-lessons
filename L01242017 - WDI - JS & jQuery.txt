@@ -1,0 +1,89 @@
+01/24/2017
+
+Instructor - Erik - Asian Kid
+
+Js Intro: https://github.com/ga-wdi-lessons/js-intro
+
+- Describe role of JS alongside HTML + CSS
+- List and describe primitive data types
+- define and list complex data types
+- practice proper JS syntax and variable naming
+- Describe math operators in JS
+- Define type coercion
+- explain prompt and console.log
+- Differentiate between true & false && truthy & falsey
+- Write an if, else if, and else statement in JS
+- Describe why control flow is utilized in computer programming
+- Write a for loop and while loop in JS and differentiate between them
+- Utilize loops to iterate through complex data types
+------------------------
+JS - handles all interactive pieces
+
+Why learn js?
+- easy to learn
+- ajax refresh without reloading
+- gives access to alot of frameworks
+------------------------
+5 main primitives in JS
+- numbers: stores numeric values
+- Strings: represents text '' or " "
+- Booleans: distinguishs between true and false
+- Undefined: instantiated vars without value are undefined 
+- Null: explicitly defined as undefined 
+
+*values are stored in variables*
+-----------------------
+Operations
+Basic operators: +, -, *, /
+modules: (%) returns remainder
+-----------------------
+Concatenation - adds string together
+-----------------------
+Escape Sequences
+\n: newline
+-----------------------
+String Methods
+String.search("[Enter string]");
+-----------------------
+arrays: ordered collection of related data types
+-----------------------
+Comparisions operators
+
+- compare the type(differentiates the type): "==="
+- type-coercion(changes the type be same): "=="
+- && : and
+- || : or
+- !  : not
+-----------------------
+LOOPS
+* for (var i = 0; i <array.length; i++)
+* for (i in array)
+* while ( i < 10) { i++} 
+
+while loop is used when amount is unknown
+for loop is used when you know the amount
+-----------------------
+Getting User Input & Conditionals
+
+.prompt();
+________________________________________
+jquery-dom
+https://css-tricks.com/dom/
+
+Is the html the same as the dom?
+- html is static it will always look the same.
+- but if we use JS to change an html, than it will change the DOM
+
+DOM is visualized as a tree
+-----------------------------
+JQuery Basics
+https://github.com/ga-wdi-lessons/jquery-dom
+
+- load jQuery library to get access
+- put your code in document ready syntax!!!!
+$(document).ready(function(){
+  console.log("hello world")
+})
+------------------------------
+
+*Can't mix jquery function and vanilla function and then come back to jquery at that point it's not jquery anymore!*

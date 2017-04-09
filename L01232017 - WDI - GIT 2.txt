@@ -66,6 +66,8 @@ Is the master branch different from any other branch?
 
 *you must create a remote branch on the remote repo [github]*
 
+*It's considered good practice to use traversal because you can change the variable instead of *
+
 - Remote and Local branches are different and local branches can be pushed to any remote branches regardless of the similarity in names. However, it's best to keep
 branches names together unless you're merging a branch.
 

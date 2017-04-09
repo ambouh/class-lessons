@@ -1,0 +1,70 @@
+function handleKeyUp(event) { 
+if(event.keyCode>64 && event.keyCode<91){ 
+var found=false; 
+var previouslyEntered=false; 
+var input = String.fromCharCode (event.keyCode).toLowerCase(); 
+for(i=0;i<previousGuesses.length;i++){ 
+if(input==previousGuesses[i]){
+previouslyEntered=true;}
+}
+--------------------------------------------
+Since this incident has ruined my whole semester and time. 
+I couldn't stomach.
+
+But one great thing is that you saved my mom from insane amount of debt.
+I still want this opportunity.
+I've felt like talking about it with you
+________________________________________
+Q: Kanye West & Adidas partnered to create this brand:
+A: yeezy
+--
+Q: Skateboard company famous for the box logo:
+A: supreme
+--
+Q: The American fashion designer & icon:
+A: ralphlauren
+--
+Q: A brand mostly likely worn by The devil: 
+A: prada
+--
+Q: The fashion house known for the iconic Medusa head:
+A: versace
+--
+Q: Italian luxury brand with the recognizable Green/red:
+A: Gucci
+_________________________________________
+
+For jumbotron
+- use flex-direction: row
+- use justify-content: space-between //it pushes divs to the end
+- use align-items: stretch //fills the entire height
+___________________________________
+
+INTERVIEW
+- No School Talk
+- Show More Experience
+- Don't sell yourself short, because they might not know
+- Make sure you're both included in knowledge: "remember we both used.."
+
+IQ SOLUTIONS - 2years
+TALKLOCAL - 3 years
+
+------------------------------
+
+very complicated structure I didn't start it well.
+How can I improve it?
+- idk...how the issue I want it to well
+------------------------------
+GOALS
+- add the project section (x)
+- add the project links->goes to project sites
+- make email work when given an email
+- add social media to site
+------------------------------
+TO DO:
+describe("a marketable porfolio")
+- it should able to access all projects
+- it should be able to go to diff social medias(Github, linkedIn, Dribbble)
+- it should be able to send emails
+- it should be able to show resume button is clicked
+- it should be able to 

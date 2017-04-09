@@ -1,0 +1,170 @@
+03/21/2017 
+--------------------------
+Learning Objectives
+
+- Identify how different components of a MEAN app work together
+- Build a simple MEAN app with data persistence, and dynamic views
+- Provide an example of a MEAN app
+--------------------------
+I. Review
+
+WHEN ENCOUNTERING INSTRUCTIONAL PROBLEMS
+- check syntax
+- google each line of error and figure out what's wrong 
+- follow the message after NPM ERR!!...
+
+SOLVING ISSUES
+- 
+
+procfile: a text file that explicitly defines the commands that Heroku should run while starting your app.
+
+----------------------------
+READ THE CODE WALKTHROUGH FOR THE REVIEW
+RE-READ DEPLOYMENT FOR MEAN STACK ONTO 
+----------------------------
+- I WANT TO DO THAT BUT I WANT TO WORK ON MY PORTFOLIO
+- BUT I WANT TO DO MY MOM'S WEB DESIGN
+SO I'LL WORK ON CODE WALKTHROUGH
+----------------------------
+Reading Code walkthrough on the mean stack lead me to >> 
+mean stack tutorial which lead me to >> 
+REST (no too important but good to know) 
+-----------------------------
+REST (Representation State Transfer): web based architecture that uses HTTP protocol for data communication.
+- a resource is accessed by (a form, webpage request -- a common interface) using HTTP methods
+
+HOW IT WORKS
+1. REST server provides access to resource (JSON objects)
+2. REST client access resource and put it on their website
+3. each resource have URI, GLOBAL ID
+4. resource are pics, file, data represented by Text, JSON, XML represent with ID
+5. plenty of libraries available to understand, parse and mod JSON data.
+
+ex. JSON
+{ "id": 1,
+  "name": "manesh",
+  "profession": "teacher"
+}
+
+HTTP METHODS 
+(CRUD - Create uses PUT, Retrieve uses GET, Update uses POST/PATCH, delete uses DELETE)
+- Get - provides read-only access to a resource
+	- clarifies request: "get"
+	- stateless HTTP request: "lchost:8080/rest/UsersServices/users
+	- [this gets list of users]
+- Put - used to create a new resource
+	- clarifies request: "put"
+	- stateless HTTP request: "lchost:8080/rest/UsersServices/users/2
+	- [this inserts a users with id 2]
+- Delete - used to remove an existing resource
+	- clarifies request: "delete"
+	- stateless HTTP request: "lchost:8080/rest/UsersServices/users/1
+	- [this delete a users with id 1]
+- Post - used to update an existing resource
+	- clarifies request: "post"
+	- stateless HTTP request: "lchost:8080/rest/UsersServices/users/2
+	- [this update a users with id 2]
+- options - used to get the supported operations on a resource (I guess if there is anything more custom you'd like to do with a resource you'll go about it through options)
+---------------------------------
+MEAN STACK
+
+To Run a simple server
+http-server [path] [option]
+---------------------------------
+
+I finished the MEAN STACK tutorials & I learned to:
+- write routes
+- make an app in angularJs
+- use expressJs workflow
+- run app on my local server
+--------------------------------
+MEAN STACK [PRO VERSION]
+
+I'm stuck on the cURL command and I want to move on or figure another way to  do it...
+
+HOW TO SOLVE IT?
+- check syntax, spelling for all your work
+- List all the possible problems and the solutions as seen in StackOverflow
+- How to test routes besides cURL
+
+
+I'm so fustrated because running is so much beter than this...
+Finding the problem with your code is the toughest thing to do with this code.
+- Why routes don't works?
+---------------------------------
+BUILDING A MEAN APP
+
+Mongoose is an ODM:
+1. used to represent data in models (javascript backend)
+2. simplifies actions on data or documents
+
+AngularJs is a framework:
+1. renders data
+2. give impression of multiple page views on single page page siteg
+3. extensible and works well with other library
+
+MAKING API ROUTES
+When wanting the front-end to be able to sync with back-end 
+in order to provide data throughout our app. How IS it done?
+1. build our own API
+2. set up routes on back-end that serve back json when ajax request comes in
+3. make ajax requests(request data from front-end) to our API
+
+* namespace your back-end routes under API to avoid confusion with routes serving
+HTML, and routes serving back our JSON data
+
+* give a response for 'delete' request so client know deletion was successful
+
+* JSON object is return from 'put' request with new candidate's info
+
+
+WHAT JS SCRIPT MAKES AN APP RUN?
+1. server looks for package.json
+2. from there, server knows the first script to be read
+3. this script:
+ - initializes, sets up, and run the app. 
+ - it also connects to the port that will listen for updates and requests
+ - it also connects to db 
+   or connects to another a script that connects to db
+
+::::::::::::
+MEAN STACK:
+
+How they get stuff back in the ng-submit is how we would work it to send this info to email...
+1. look at how info is being filled then sent in meanstack
+2. emulate
+3. add sendgrid function and send...
+
+FROM FRONT-END
+
+1. make module
+- it initializes the app
+:::::::
+angular
+  .module("whenPresident", [
+    "ui.router",
+    "ngResource"
+  ])
+
+2. make a router
+- it gives you the routes to open all your pages 
+::::::
+    .config([
+    "$stateProvider",
+    "$locationProvider",
+    "$urlRouterProvider",
+    Router
+    ])
+3. make a controller
+    .controller("showCtrl", [
+        "$state",
+        "$stateParams",
+        "Candidate",
+        showController
+    ])
+
+I hate to be able 
+
+I'm so cpnfused because I already did it...I think I got my data the problem becomes
+
+

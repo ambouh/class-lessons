@@ -1,0 +1,71 @@
+1/26/2019
+
+SCOPE- where a variable can be reference/used
+
+variables without "var": global scope
+variables with "var": current local scope
+
+Sample Quiz Question
+1. Describe the rules of scope in JS
+
+- variables with var are available at current local
+* if they are global, then they're accessible anywhere but only have value wherever they're defined.
+- variables without 'var' are available everywhere but ##this is bad form##
+
+------------------------------
+What is an event (on a webpage)?
+
+1.
+MY RESPONSE
+event - is any call made to JS, anything that triggers a response in JS
+
+2.
+ONLINE RESPONSE
+An HTML event can be something the browser does, or something a user does.
+An HTML web page has finished loading
+An HTML input field was changed
+An HTML button was clicked
+
+- it doesn't match my response. 
+-an event is a trigger to the browser from the user or the browser itself. 
+
+3.
+- mouse click
+- browser refresh
+- mouse hover
+
+----------------------------
+Setting up Event Listener
+
+
+// This is the event listener
+button.on("click", handleClickEvent);
+
+- 'button': is a variable that stores HTML element <button>, we are applying the listener to this element
+- ".on()": is a jquery method; creator of the event listener
+- 'click': the event; specifies what event we're listening
+- handleClickEvent: callback or what happens when event occurs 
+--------------------------
+Calling VS Referencing
+
+calling a function - place parentheses!!
+reference a funct - leave parentheses!
+
+* calling a function when page is load and reads code it will trigger that function instead of being referred!
+------------------------
+$(this) vs this
+
+- this - refers to the object triggering the event
+
+What is the difference between $(this) and this?
+
+- $(this): returns jquery object
+- this: returns vanilla JS object
+------------------------
+setTimeInterval() & setTimeout
+
+- setTimeInterval(function, time): run function continously when 'time' is elapsed
+ - setTimeout(function, time): runs function only once 'time' has elapsed. [it's good for calling function after 'time', no matter is slow a server is being 'function' is called at this 'time']
+------------------------
+
+

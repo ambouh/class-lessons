@@ -1,0 +1,113 @@
+01/25/2017
+
+Instructor: 
+Angel - Black girl instructor
+
+_______________________________________
+JS Objects & Function
+
+
+Why we use functions?
+- keep your code DRY
+- Reusability
+- Naming convention(describe intent)
+-------------------------
+What are components of a function
+
+function multiply() {
+
+}
+--------------------------
+*typing the name of the function w/o parameters gives back the functions *
+--------------------------
+Hoisting - when a function gets pulled to the top/ raised 
+
+function declaration: do not have vars, can be called before being defined
+function expression: do use vars, and can't be called before defined (expressions don't get hoisted they stay where they're defined)  
+
+Benefit of hoisting
+- 
+
+(view later)
+--------------------------
+ES6 Syntax - version of javascript
+
+const multiply = (num1, num2) => {
+  return num1 * num2;
+}
+
+Or, to simplify it further..
+
+const multiply = (num1, num2) => num1 * num2;
+--------------------------
+Function QUIZ
+1. 
+function foo(){
+  function bar() {
+      return 3;
+  }
+  return bar();
+  function bar() {
+      return 8;
+  }
+}
+alert(foo());
+- returns 8, b/c bar is being redefined by the last function bar()
+
+2. 
+function foo(){
+  var bar = function() {
+      return 3;
+  };
+  return bar();
+  var bar = function() {
+      return 8;
+  };
+}
+alert(foo());
+- returns 3, because that expression is declared already so the return statement only know this function.
+
+3.
+function foo(){
+  return bar();
+  var bar = function() {
+      return 3;
+  };
+  var bar = function() {
+      return 8;
+  };
+}
+alert(foo());
+- return undefined, b/c the return statement doesn't have bar as function it's declared as an expression down the line.
+___________________________________
+ OBJECTS: https://github.com/ga-wdi-lessons/js-objects-functions/blob/master/objects.md
+
+var car = {
+  make: "Honda",
+  model: "Civic",
+  year: 1997,
+
+  // NOTE: Keys with a "-" in their name must be surrounded by quotation marks.
+  "tire-type": "Goodyear"
+}
+
+----------------------------
+INTERACTING WITH OBJECTS
+
+Dot notation
+- car.make
+
+Bracket notation
+- car["tire-type"]
+*Use bracket notation with "tire-type" because of hyphen*
+
+Delete A Property
+- delete car.model
+----------------------------
+Nescted collection
+_______________________________
+OUTCOMES
+- DO ORGANIZATIONAL RESEARCH 3 companies 
+
+
+ 
