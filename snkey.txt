@@ -1,0 +1,18 @@
+ ^Mecho "export SENDGRID_API_KEY='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'" > sendgrid.env
+
+echo "sendgrid.env" >> .gitignore
+
+source ./sendgrid.env
+
+--------------------
+echo "export SENDGRID_API_KEY='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'" > sendgrid.env
+
+echo "sendgrid.env" >> .gitignore
+
+source ./sendgrid.env
+----------------------
+echo "export SENDGRID_API_KEY='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'"> sendgrid.env
+
+echo "sendgrid.env" >> .gitignore
+
+source ./sendgrid.env

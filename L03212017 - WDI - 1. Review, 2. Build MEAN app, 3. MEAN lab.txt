@@ -167,4 +167,69 @@ I hate to be able
 
 I'm so cpnfused because I already did it...I think I got my data the problem becomes
 
+-------------------------
+BOSSABLE.COM EMAIL TUTORIAL
 
+1. in form, give it a controller to put methods and data
+- make sure it's in your controller
+
+2. send data from client to server using $http, so add it to your controller dependency and function parameter in same order
+- inside your submit function, write an $http.post
+- write a url of choice
+- write data
+ data = ({ first: this.email, second: this.message})
+3. create a route, using: app.route
+Use your ExpressJS Route as an API to call your ExpressJS Controller
+- var core = require('../crtl/core.server.controller');
+- app.route('/contact').post(core.submit) -- make sure method and route match
+
+4. switch to express server controller
+- edit an export.submit which receives your data
+- you can retrieve the data: use var data = req.body
+- you can use sendgrid code to send email at that point
+- res.json(data): respond with data
+
+-------------------
+SAVED CODE
+-------------------
+// using SendGrid's v3 Node.js Library
+// https://github.com/sendgrid/sendgrid-nodejs
+
+  var helper = require('sendgrid').mail;
+  var mailBody = req.body;
+  var sentEmail = "email";
+  var sentMessage = "message";
+
+  console.log(mailBody);
+
+  from_email = new helper.Email(sentEmail);
+  to_email = new helper.Email("ambouh@terpmail.umd.edu");
+  subject = "New email from " + sentEmail + " !";
+  content = new helper.Content("text/plain", sentMessage);
+  mail = new helper.Mail(from_email, subject, to_email, content);
+
+  var sg = require('sendgrid')(process.env.SENDGRID_API_KEY);
+  var request = sg.emptyRequest({
+    method: 'POST',
+    path: '/v3/mail/send',
+    body: mail.toJSON()
+  });
+
+  sg.API(request, function(error, response) {
+    console.log(response.statusCode);
+    console.log(response.body);
+    console.log(response.headers);
+  })
+----------------------
+- require (server.controller): keeps the scope of that route
+- link app.post to method; this has the data request
+- in server.controller, open the data request by saying
+export.method(req,...){
+var data = req.body
+}
+::::::::
+MY CASE
+- passes info straight to router
+- link data using '/send'
+- access data using req.body
+- console.log(req.body)
