@@ -1,0 +1,220 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1033{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil Courier New;}{\f2\fnil\fcharset0 Courier New;}{\f3\fnil\fcharset2 Symbol;}}
+{\colortbl ;\red255\green198\blue109;\red169\green183\blue198;\red204\green120\blue50;\red255\green255\blue0;\red0\green128\blue0;}
+{\*\listtable 
+{\list\listhybrid
+{\listlevel\levelnfc23\leveljc0\levelstartat1{\leveltext\'01\'B7;}{\levelnumbers;}\f3\jclisttab\tx0}
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'01.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'02.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc3\leveljc0\levelstartat1{\leveltext\'02\'03.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc2\leveljc0\levelstartat1{\leveltext\'02\'04.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc1\leveljc0\levelstartat1{\leveltext\'02\'05.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc0\leveljc0\levelstartat1{\leveltext\'02\'06.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc4\leveljc0\levelstartat1{\leveltext\'02\'07.;}{\levelnumbers\'01;}\jclisttab\tx0}
+{\listlevel\levelnfc23\leveljc1\levelstartat1{\leveltext\'01\'B7;}{\levelnumbers;}\f3\jclisttab\tx0}\listid2 }}
+{\*\listoverridetable{\listoverride\listid1\listoverridecount0\ls1}}
+{\*\generator Riched20 10.0.14393}\viewkind4\uc1 
+\pard\sa200\sl240\slmult1\f0\fs22\lang9 05/08/2017\par
+-------------------------------\par
+\par
+-------------------------------\par
+
+\pard\sl240\slmult1 1. Building the First Page\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 Turn Biz. reqirement into a view, model and controller\par
+{\pntext\f3\'B7\tab}project structure\par
+{\pntext\f3\'B7\tab}build the view\par
+{\pntext\f3\'B7\tab}define main module\par
+{\pntext\f3\'B7\tab}build controller\par
+{\pntext\f3\'B7\tab}define a model\par
+{\pntext\f3\'B7\tab}implement the methods used in view\par
+{\pntext\f3\'B7\tab}style view with bootstrap\par
+
+\pard\sl240\slmult1\par
+\par
+Controller - defines the data and the code for the actions in the view\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sl240\slmult1 Controller defines the model; primary purpose of a ctrl is to define the model required by the view so it's said the the ctrl has the view's model\par
+{\pntext\f0 2.\tab}has the method; controller has view or user interface actions\par
+
+\pard\sl240\slmult1\par
+ng-init: allows to test data in html directly\par
+\par
+Module\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720\sl240\slmult1 Defines app\par
+{\pntext\f0 2.\tab}Keep Code\par
+{\pntext\f0 3.\tab}Modularize app\par
+
+\pard\sl240\slmult1\par
+\par
+IIFE - self-exectuting function, to avoid gobal function\par
+\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 adding the parameters to module or controllers is used when minifying js code\par
+
+\pard\sl240\slmult1\par
+::::::::::::::::::::::::::::::::::\par
+INTERVIEW TIPS FROM CHRIS HZDG\par
+A large number of people:\par
+- if you're unfamiliar before interview, 90% & show the work.\par
+- coding challenge:   Nothing Extra,\par
+- Do some code samples and stay in touch with him...to get a job\par
+::::::::::::::::::::::::::::::::::\par
+\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 use ngResource as a depency in modules to use RESTful services\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sl240\slmult1 Download it's CDN before using\par
+{\pntext\f3\'B7\tab}Add after Angular CDN\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 To make $resource REST service work\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li1080\sl240\slmult1 make a "common.services" module: all your services will be in stored in this module\par
+{\pntext\f0 2.\tab}make a "productResource" factory using the "common.services" module, while adding ngResource is a parameter\par
+{\pntext\f0 3.\tab}Use it in controller, by adding "productResource" as dependency\par
+{\pntext\f0 4.\tab}call it's method like this: 'productResource.query( function(data)\{\})'\par
+
+\pard\sl240\slmult1\par
+\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 She uses vm.products w/o declaring the variable. Why?\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sl240\slmult1 since in the index.html she uses 'productListCtrl as vm"\par
+{\pntext\f3\'B7\tab}then she uses: \{\{vm.products\}\}\par
+{\pntext\f3\'B7\tab}it's in agreement in ctrl that vm.products are the same!\par
+
+\pard\sl240\slmult1\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 [TASK] There's no list showing up, how?\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sl240\slmult1 POSSIBLE SOLUTIONS\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1440\sl240\slmult1 check every line of code\par
+{\pntext\f3\'B7\tab}RESTful $resource is properly feeding data to controller and to view\par
+{\pntext\f3\'B7\tab}ng-repeat has no repeat so data response don't properly\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sl240\slmult1 SOLUTION: misspelled 'vm.product' instead of 'vm.products'  in productLisCtrl\par
+
+\pard\sl240\slmult1\par
+\par
+:::::::::::\par
+\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 How to to set up a $httpBackend.whenPOST() request?\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li1080\sl240\slmult1 Download angular-mock.js CDN\par
+{\pntext\f0 2.\tab}Make a module that handle REST services\par
+{\pntext\f0 3.\tab}run the module using app.run(...)\par
+{\pntext\f0 4.\tab}using the 'app.run()' method, make a $httpBackend.whenPOST(), that intercepts post calls\par
+
+\pard\box\brdrdash\brdrw0 \fi-360\li1080\sl240\slmult1\f1\fs18 $httpBackend.\cf1 whenPOST\cf2 (productUrl).\cf1 respond\cf2 (\cf3\b function \cf2\b0 (method\cf3 , \cf2 url\cf3 , \cf2 data) \{\f2\lang1033 ...\});\cf0\f0\fs22\lang9\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li1080\sl240\slmult1 assign the data to 'var product'\par
+{\pntext\f0 2.\tab}productId is probably blank(meaning it hasn't been pushed to products),if so push it in\line if(!product.productId) \{...\}\par
+{\pntext\f0 3.\tab}else find the product in products array using its id and update it!\par
+
+\pard\sl240\slmult1\par
+---------------------------------------------\par
+5/15/2017\par
+\par
+ROUTING TO MULTIPLE VIEWS - PART 1\par
+\par
+[TASK] - route isn't routing to data-ui-view\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1\highlight4 POSSIBLE SOLUTIONS\highlight0\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sl240\slmult1 check every page and changed code to see why it doesn't work\par
+{\pntext\f3\'B7\tab}paste tutorial files into my files\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1\highlight5 SOLUTION: \highlight0\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sl240\slmult1\highlight5 I spelled 'ui-router' instead of '\b ui.router\b0 ' --that's why I 'ui.router isn't instantiated and ui-router module isn't available! misspelled and so on'\highlight0\par
+{\pntext\f3\'B7\tab}\highlight5 spelled my URL wrong: '/products/productListView.html' instead of 'app/products/productListView.html'\par
+{\pntext\f3\'B7\tab}spelled my Controller wrong:  ProductListCrtl instead of ProductListCtrl\par
+
+\pard\sl240\slmult1\highlight0\par
+::::::::::::\par
+TODAY I LEARNED:\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 Routing, ui-view, and controllers\par
+{\pntext\f3\'B7\tab}How to set routing to multiple views in angularjs?\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li1080\sl240\slmult1 add angular-ui-router library to index\par
+{\pntext\f0 2.\tab}add ui.router as a dependency in main module\par
+{\pntext\f0 3.\tab}add $stateProvider.state() methods for routing\par
+{\pntext\f0 4.\tab}in .state(), add parameters state name and state properties: 'url:____', 'templateUrl:___', 'controller:___ as vm'\par
+{\pntext\f0 5.\tab}change index.html to have a placeholder using a div with data-ui-view where views will be displayed\par
+{\pntext\f0 6.\tab}make views and the views don't need to specify ng-controller since it's done when defining state\par
+
+\pard\sl240\slmult1\par
+---------------------------------------------\par
+5/17/2017\par
+\par
+WHAT DID I LEARN?\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li720\sl240\slmult1 showed how to create a detailed state, where you click and it brings up a detailed view of an item in a list\par
+
+\pard{\pntext\f3\'B7\tab}{\*\pn\pnlvlblt\pnf3\pnindent0{\pntxtb\'B7}}\fi-360\li1080\sl240\slmult1 HOW?\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li1080\sl240\slmult1 make the view,\par
+{\pntext\f0 2.\tab} using a route get the details and feed it to the controller....she put static info instead though\par
+{\pntext\f0 3.\tab}configure the state: url, templateUrl, controller as\par
+{\pntext\f0 4.\tab}in the view add data\par
+{\pntext\f0 5.\tab}in main view (productListView), add anchor tag to the title: put ui-sref="productEdit\{\{productId\}\}"\par
+{\pntext\f0 6.\tab}now when you click on a productItem, it returns view with details!\par
+
+\pard 
+{\listtext\f0\u10625?\tab}\ls2\fi-360\li720\sl240\slmult1 showed how to pre-load appropriate data to a detailed view, using state() method's resolve property\par
+
+\pard 
+{\listtext\f0\u10625?\tab}\ls2\ilvl8\fi-360\li1080\sl240\slmult1  HOW?\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li1080\sl240\slmult1 In state() method, add resolve property which works in key/value\line - add productResource we made, give it a key\line - add function that fetches info using the productResource, give it a key\par
+{\pntext\f0 2.\tab}In controller of ProductDetail, assign the function's key to var product\par
+{\pntext\f0 3.\tab}That's it, they should be talking to each other!\par
+
+\pard\sl240\slmult1\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+
+\pard\sa200\sl240\slmult1\par
+}
+ 
